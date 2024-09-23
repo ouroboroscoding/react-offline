@@ -1,0 +1,15 @@
+#oc_offline {
+	background: #ff000080;
+	left: 0;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	z-index: 100;
+}
+
+#oc_offline p {
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+}
