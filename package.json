@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/react-offline",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Offline Component. Displayed when the browser is no longer connected to the network/internet.",
 	"main": "index.js",
 	"types": "index.d.ts",
@@ -12,16 +12,16 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ouroboroscoding/react-online.git"
+		"url": "git+https://github.com/ouroboroscoding/react-offline.git"
 	},
 	"keywords": [
-		"@ouroboros/react-online",
+		"@ouroboros/react-offline",
 		"react"
 	],
 	"author": "Chris Nasr <chris@ouroboroscoding.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ouroboroscoding/react-online/issues"
+		"url": "https://github.com/ouroboroscoding/react-offline/issues"
 	},
 	"devDependencies": {
 		"@types/node": "^18.14.0",

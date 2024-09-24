@@ -31,7 +31,6 @@ function App(props) {
 | message | string | no | Default, "You are not online! Please check your network connection." |
 | position | "bottom" \| "top" | no | Default, "top" |
 
-
 ## Style
 
 You can set your own styles using the #oc_offline ID, or import / include `node_modules/@ouroboros/react-offline/style.css`.
