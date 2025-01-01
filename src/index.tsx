@@ -31,7 +31,8 @@ export type OfflineProps = {
  * @returns React.Component
  */
 export default function Offline({
-	message, position
+	message = 'You are not online! Please check your network connection.',
+	position = 'top'
 }: OfflineProps) {
 
 	// Hooks
@@ -55,10 +56,4 @@ export default function Offline({
 Offline.propTypes = {
 	message: PropTypes.string,
 	position: PropTypes.oneOf([ 'bottom', 'top' ])
-}
-
-// Default props
-Offline.defaultProps = {
-	message: 'You are not online! Please check your network connection.',
-	position: 'top'
 }

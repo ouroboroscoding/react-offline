@@ -1,6 +1,6 @@
 {
 	"name": "@ouroboros/react-offline",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Offline Component. Displayed when the browser is no longer connected to the network/internet.",
 	"main": "index.js",
 	"types": "index.d.ts",
@@ -31,7 +31,7 @@
 		"typescript": "^4.8.3"
 	},
 	"dependencies": {
-		"@ouroboros/react-hooks": "^1.0.0",
+		"@ouroboros/react-hooks": "^1.0.2",
 		"prop-types": "^15.8.1"
 	},
 	"peerDependencies": {
