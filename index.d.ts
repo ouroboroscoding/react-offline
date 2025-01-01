@@ -28,9 +28,5 @@ declare namespace Offline {
         message: PropTypes.Requireable<string>;
         position: PropTypes.Requireable<string>;
     };
-    var defaultProps: {
-        message: string;
-        position: string;
-    };
 }
 export default Offline;

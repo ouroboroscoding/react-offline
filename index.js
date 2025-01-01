@@ -20,7 +20,7 @@ import React from 'react';
  * @param Object props Properties passed to the component
  * @returns React.Component
  */
-export default function Offline({ message, position }) {
+export default function Offline({ message = 'You are not online! Please check your network connection.', position = 'top' }) {
     // Hooks
     const online = useOnline();
     // If online, do nothing
@@ -36,9 +36,4 @@ export default function Offline({ message, position }) {
 Offline.propTypes = {
     message: PropTypes.string,
     position: PropTypes.oneOf(['bottom', 'top'])
-};
-// Default props
-Offline.defaultProps = {
-    message: 'You are not online! Please check your network connection.',
-    position: 'top'
 };
